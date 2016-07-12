@@ -50,7 +50,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'jindalservices.urls'
+ROOT_URLCONF = 'setting.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'jindalservices.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 
 
 # Database
