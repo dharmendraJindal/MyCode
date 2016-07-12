@@ -1,0 +1,11 @@
+# virtual env and virtual wrapper
+
+http://docs.python-guide.org/en/latest/dev/virtualenvs/
+
+# setting username and pass for git
+
+type following command and do git push
+
+git config credential.helper store
+
+#
