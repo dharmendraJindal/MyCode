@@ -8,4 +8,6 @@ type following command and do git push
 
 git config credential.helper store
 
-#
+#to setup mysql
+
+https://www.digitalocean.com/community/tutorials/how-to-use-mysql-or-mariadb-with-your-django-application-on-ubuntu-14-04

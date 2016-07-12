@@ -1,0 +1,11 @@
+Error[1]: Error while running first time migrate
+
+ImproperlyConfigured: Error loading MySQLdb module: No module named MySQLdb
+
+solved by installing
+
+sudo apt-get install python-mysqldb
+
+apt-get install libmysqlclient-dev
+apt-get install python-dev
+pip install mysql-python
