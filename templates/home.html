@@ -1,34 +1,33 @@
-{% load staticfiles %}
-
-<html>
 
 
-<header>
-    <div class="row">
-        {% include "common/base.html" %}
-    </div>
-</header>
+{% block title %} Title{% endblock %}
 
-
-<body>
+{% block content %}
 
 <div class="container">
+    <div style="height: 10%;">
 
-    <div class="row">
-
-        Aptitude
-
+        {% include "common/base.html" %}
 
     </div>
 
-    <div class="row">
+    <div style="height: 50%;">
 
-        Other Services
+        <img src="static/common/utils/images/goal.gif">
+
+    </div>
+    <div style="height: 40%;">
+<h2>Address</h2>
+
     </div>
 
 
 </div>
 
+{% endblock %}
 
-</body>
-</html>
+
+
+
+
+
